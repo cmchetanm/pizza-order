@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders broker code 1`] = `
+<div
+  className="row ingredient-row"
+>
+  <div
+    className="text-center col-sm-12"
+  >
+    Select a pizza to get started.
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+.ingredient-row{
+  padding-top: 20px;
+}
+li {
+  list-style: none;
+}
+.icons{
+  font-size: 25px;
+}
+
+.ingredient-name{
+  padding-top: 20px;
+  font-size: 18px;
+}
+.ingredient-holder:hover{
+  background-color: lightgray;
+}

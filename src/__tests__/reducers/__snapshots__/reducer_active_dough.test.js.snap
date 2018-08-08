@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`doughType reducer counter should return the initial state 1`] = `
+Object {
+  "activeDoughTypes": null,
+  "activeIngredients": Object {
+    "ingredients": Array [],
+    "totalPrice": null,
+  },
+  "doughTypes": Array [
+    Object {
+      "description": "Thin and crusty pizza dough",
+      "id": 1,
+      "name": "Thin",
+      "price": 0.5,
+    },
+    Object {
+      "description": "Thick and crusty pizza dough",
+      "id": 2,
+      "name": "Thick",
+      "price": 1,
+    },
+  ],
+  "ingredients": Array [
+    Object {
+      "displayName": "Pepperoni",
+      "id": 1,
+      "name": "pepperoni",
+      "price": 1,
+    },
+    Object {
+      "displayName": "Anchovies",
+      "id": 2,
+      "name": "anchovies",
+      "price": 10,
+    },
+    Object {
+      "displayName": "Lobstah",
+      "id": 3,
+      "name": "lobster",
+      "price": 25,
+    },
+    Object {
+      "displayName": "truffle oil",
+      "id": 4,
+      "name": "truffle oil",
+      "price": 100,
+    },
+  ],
+}
+`;
+
+exports[`doughType reducer doughType selectDough 1`] = `
+Object {
+  "activeDoughTypes": Object {
+    "activeDoughTypes": Object {
+      "description": "Thin and crusty pizza dough",
+      "id": 1,
+      "name": "Thin",
+      "price": 0.5,
+    },
+  },
+  "activeIngredients": Object {
+    "ingredients": Array [],
+    "totalPrice": null,
+  },
+  "doughTypes": Array [
+    Object {
+      "description": "Thin and crusty pizza dough",
+      "id": 1,
+      "name": "Thin",
+      "price": 0.5,
+    },
+    Object {
+      "description": "Thick and crusty pizza dough",
+      "id": 2,
+      "name": "Thick",
+      "price": 1,
+    },
+  ],
+  "ingredients": Array [
+    Object {
+      "displayName": "Pepperoni",
+      "id": 1,
+      "name": "pepperoni",
+      "price": 1,
+    },
+    Object {
+      "displayName": "Anchovies",
+      "id": 2,
+      "name": "anchovies",
+      "price": 10,
+    },
+    Object {
+      "displayName": "Lobstah",
+      "id": 3,
+      "name": "lobster",
+      "price": 25,
+    },
+    Object {
+      "displayName": "truffle oil",
+      "id": 4,
+      "name": "truffle oil",
+      "price": 100,
+    },
+  ],
+}
+`;

@@ -1,0 +1,10 @@
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.app-header{
+	padding: 20px;
+	margin-top: 35px;
+}
